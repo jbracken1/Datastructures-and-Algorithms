@@ -1,7 +1,7 @@
 #include "project.h"
 
 
-void printMessage() {
+void printMessage() { // this was just a test method. i want to use some of this to make my linkedlist class
     Node* n1 = new Node{1, nullptr};
     Node* n2 = new Node{2, nullptr};
     Node* n3 = new Node{3, nullptr};
@@ -25,4 +25,5 @@ void printMessage() {
     }
 
     cout << "jack is the goat!";
+    cout << "jack is cool as fuck";
 }
